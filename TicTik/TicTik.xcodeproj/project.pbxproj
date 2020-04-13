@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58706206244297F4008D531C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58706205244297F4008D531C /* AppDelegate.swift */; };
+		58706208244297F4008D531C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58706207244297F4008D531C /* SceneDelegate.swift */; };
+		5870620A244297F4008D531C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58706209244297F4008D531C /* ViewController.swift */; };
+		5870620D244297F4008D531C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5870620B244297F4008D531C /* Main.storyboard */; };
+		58706210244297F4008D531C /* TicTik.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5870620E244297F4008D531C /* TicTik.xcdatamodeld */; };
+		58706212244297F5008D531C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58706211244297F5008D531C /* Assets.xcassets */; };
+		58706215244297F5008D531C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58706213244297F5008D531C /* LaunchScreen.storyboard */; };
+		58706220244297F5008D531C /* TicTikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5870621F244297F5008D531C /* TicTikTests.swift */; };
+		5870622B244297F5008D531C /* TicTikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5870622A244297F5008D531C /* TicTikUITests.swift */; };
+		5870623924429812008D531C /* x1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5870623824429812008D531C /* x1.jpg */; };
+		5870623F24429B3A008D531C /* nought2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5870623C24429B3A008D531C /* nought2.png */; };
+		5870624124429B3A008D531C /* xIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5870623E24429B3A008D531C /* xIcon.png */; };
+		5870624324429CB1008D531C /* board2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5870624224429CB1008D531C /* board2.png */; };
+		5870624524429D1B008D531C /* Board.png in Resources */ = {isa = PBXBuildFile; fileRef = 5870624424429D1A008D531C /* Board.png */; };
+		587062492443B46A008D531C /* BoardOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587062482443B46A008D531C /* BoardOne.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5870621C244297F5008D531C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 587061FA244297F4008D531C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58706201244297F4008D531C;
+			remoteInfo = TicTik;
+		};
+		58706227244297F5008D531C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 587061FA244297F4008D531C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58706201244297F4008D531C;
+			remoteInfo = TicTik;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58706202244297F4008D531C /* TicTik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58706205244297F4008D531C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58706207244297F4008D531C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		58706209244297F4008D531C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5870620C244297F4008D531C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5870620F244297F4008D531C /* TicTik.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TicTik.xcdatamodel; sourceTree = "<group>"; };
+		58706211244297F5008D531C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58706214244297F5008D531C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58706216244297F5008D531C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5870621B244297F5008D531C /* TicTikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5870621F244297F5008D531C /* TicTikTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTikTests.swift; sourceTree = "<group>"; };
+		58706221244297F5008D531C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58706226244297F5008D531C /* TicTikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5870622A244297F5008D531C /* TicTikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTikUITests.swift; sourceTree = "<group>"; };
+		5870622C244297F5008D531C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5870623824429812008D531C /* x1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = x1.jpg; sourceTree = "<group>"; };
+		5870623C24429B3A008D531C /* nought2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought2.png; sourceTree = "<group>"; };
+		5870623E24429B3A008D531C /* xIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xIcon.png; sourceTree = "<group>"; };
+		5870624224429CB1008D531C /* board2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = board2.png; path = ../../board2.png; sourceTree = "<group>"; };
+		5870624424429D1A008D531C /* Board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Board.png; sourceTree = "<group>"; };
+		587062482443B46A008D531C /* BoardOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardOne.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		587061FF244297F4008D531C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58706218244297F5008D531C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58706223244297F5008D531C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		587061F9244297F4008D531C = {
+			isa = PBXGroup;
+			children = (
+				58706204244297F4008D531C /* TicTik */,
+				5870621E244297F5008D531C /* TicTikTests */,
+				58706229244297F5008D531C /* TicTikUITests */,
+				58706203244297F4008D531C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58706203244297F4008D531C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58706202244297F4008D531C /* TicTik.app */,
+				5870621B244297F5008D531C /* TicTikTests.xctest */,
+				58706226244297F5008D531C /* TicTikUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58706204244297F4008D531C /* TicTik */ = {
+			isa = PBXGroup;
+			children = (
+				5870624424429D1A008D531C /* Board.png */,
+				5870624224429CB1008D531C /* board2.png */,
+				58706205244297F4008D531C /* AppDelegate.swift */,
+				58706207244297F4008D531C /* SceneDelegate.swift */,
+				5870623C24429B3A008D531C /* nought2.png */,
+				5870623E24429B3A008D531C /* xIcon.png */,
+				58706209244297F4008D531C /* ViewController.swift */,
+				5870620B244297F4008D531C /* Main.storyboard */,
+				587062482443B46A008D531C /* BoardOne.swift */,
+				58706211244297F5008D531C /* Assets.xcassets */,
+				58706213244297F5008D531C /* LaunchScreen.storyboard */,
+				58706216244297F5008D531C /* Info.plist */,
+				5870623824429812008D531C /* x1.jpg */,
+				5870620E244297F4008D531C /* TicTik.xcdatamodeld */,
+			);
+			path = TicTik;
+			sourceTree = "<group>";
+		};
+		5870621E244297F5008D531C /* TicTikTests */ = {
+			isa = PBXGroup;
+			children = (
+				5870621F244297F5008D531C /* TicTikTests.swift */,
+				58706221244297F5008D531C /* Info.plist */,
+			);
+			path = TicTikTests;
+			sourceTree = "<group>";
+		};
+		58706229244297F5008D531C /* TicTikUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5870622A244297F5008D531C /* TicTikUITests.swift */,
+				5870622C244297F5008D531C /* Info.plist */,
+			);
+			path = TicTikUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58706201244297F4008D531C /* TicTik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5870622F244297F5008D531C /* Build configuration list for PBXNativeTarget "TicTik" */;
+			buildPhases = (
+				587061FE244297F4008D531C /* Sources */,
+				587061FF244297F4008D531C /* Frameworks */,
+				58706200244297F4008D531C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicTik;
+			productName = TicTik;
+			productReference = 58706202244297F4008D531C /* TicTik.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5870621A244297F5008D531C /* TicTikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58706232244297F5008D531C /* Build configuration list for PBXNativeTarget "TicTikTests" */;
+			buildPhases = (
+				58706217244297F5008D531C /* Sources */,
+				58706218244297F5008D531C /* Frameworks */,
+				58706219244297F5008D531C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5870621D244297F5008D531C /* PBXTargetDependency */,
+			);
+			name = TicTikTests;
+			productName = TicTikTests;
+			productReference = 5870621B244297F5008D531C /* TicTikTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58706225244297F5008D531C /* TicTikUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58706235244297F5008D531C /* Build configuration list for PBXNativeTarget "TicTikUITests" */;
+			buildPhases = (
+				58706222244297F5008D531C /* Sources */,
+				58706223244297F5008D531C /* Frameworks */,
+				58706224244297F5008D531C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58706228244297F5008D531C /* PBXTargetDependency */,
+			);
+			name = TicTikUITests;
+			productName = TicTikUITests;
+			productReference = 58706226244297F5008D531C /* TicTikUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		587061FA244297F4008D531C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Mayo Olojo";
+				TargetAttributes = {
+					58706201244297F4008D531C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					5870621A244297F5008D531C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 58706201244297F4008D531C;
+					};
+					58706225244297F5008D531C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 58706201244297F4008D531C;
+					};
+				};
+			};
+			buildConfigurationList = 587061FD244297F4008D531C /* Build configuration list for PBXProject "TicTik" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 587061F9244297F4008D531C;
+			productRefGroup = 58706203244297F4008D531C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58706201244297F4008D531C /* TicTik */,
+				5870621A244297F5008D531C /* TicTikTests */,
+				58706225244297F5008D531C /* TicTikUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58706200244297F4008D531C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5870623F24429B3A008D531C /* nought2.png in Resources */,
+				58706215244297F5008D531C /* LaunchScreen.storyboard in Resources */,
+				58706212244297F5008D531C /* Assets.xcassets in Resources */,
+				5870623924429812008D531C /* x1.jpg in Resources */,
+				5870624524429D1B008D531C /* Board.png in Resources */,
+				5870624324429CB1008D531C /* board2.png in Resources */,
+				5870620D244297F4008D531C /* Main.storyboard in Resources */,
+				5870624124429B3A008D531C /* xIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58706219244297F5008D531C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58706224244297F5008D531C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		587061FE244297F4008D531C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5870620A244297F4008D531C /* ViewController.swift in Sources */,
+				58706206244297F4008D531C /* AppDelegate.swift in Sources */,
+				58706208244297F4008D531C /* SceneDelegate.swift in Sources */,
+				58706210244297F4008D531C /* TicTik.xcdatamodeld in Sources */,
+				587062492443B46A008D531C /* BoardOne.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58706217244297F5008D531C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58706220244297F5008D531C /* TicTikTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58706222244297F5008D531C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5870622B244297F5008D531C /* TicTikUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5870621D244297F5008D531C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58706201244297F4008D531C /* TicTik */;
+			targetProxy = 5870621C244297F5008D531C /* PBXContainerItemProxy */;
+		};
+		58706228244297F5008D531C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58706201244297F4008D531C /* TicTik */;
+			targetProxy = 58706227244297F5008D531C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5870620B244297F4008D531C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5870620C244297F4008D531C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58706213244297F5008D531C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58706214244297F5008D531C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5870622D244297F5008D531C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5870622E244297F5008D531C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58706230244297F5008D531C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8W6SDP7SM;
+				INFOPLIST_FILE = TicTik/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MayoOlojo.TicTik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58706231244297F5008D531C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8W6SDP7SM;
+				INFOPLIST_FILE = TicTik/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MayoOlojo.TicTik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58706233244297F5008D531C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8W6SDP7SM;
+				INFOPLIST_FILE = TicTikTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MayoOlojo.TicTikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicTik.app/TicTik";
+			};
+			name = Debug;
+		};
+		58706234244297F5008D531C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8W6SDP7SM;
+				INFOPLIST_FILE = TicTikTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MayoOlojo.TicTikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicTik.app/TicTik";
+			};
+			name = Release;
+		};
+		58706236244297F5008D531C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8W6SDP7SM;
+				INFOPLIST_FILE = TicTikUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MayoOlojo.TicTikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TicTik;
+			};
+			name = Debug;
+		};
+		58706237244297F5008D531C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8W6SDP7SM;
+				INFOPLIST_FILE = TicTikUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MayoOlojo.TicTikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TicTik;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		587061FD244297F4008D531C /* Build configuration list for PBXProject "TicTik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5870622D244297F5008D531C /* Debug */,
+				5870622E244297F5008D531C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5870622F244297F5008D531C /* Build configuration list for PBXNativeTarget "TicTik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58706230244297F5008D531C /* Debug */,
+				58706231244297F5008D531C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58706232244297F5008D531C /* Build configuration list for PBXNativeTarget "TicTikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58706233244297F5008D531C /* Debug */,
+				58706234244297F5008D531C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58706235244297F5008D531C /* Build configuration list for PBXNativeTarget "TicTikUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58706236244297F5008D531C /* Debug */,
+				58706237244297F5008D531C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5870620E244297F4008D531C /* TicTik.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5870620F244297F4008D531C /* TicTik.xcdatamodel */,
+			);
+			currentVersion = 5870620F244297F4008D531C /* TicTik.xcdatamodel */;
+			path = TicTik.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 587061FA244297F4008D531C /* Project object */;
+}
